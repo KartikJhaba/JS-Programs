@@ -22,5 +22,8 @@ user.city = 'Delhi';
 // Delete the hobbies property.
 delete user.hobbies;
 
+// Checking the age key in user object
+'name' in user;
+
 // Print the entire object to see the changes.
 console.log(user);
